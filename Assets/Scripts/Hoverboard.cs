@@ -119,6 +119,10 @@ public class Hoverboard : MonoBehaviour
 
 	}
 
+	/// <summary>
+	/// Is active while W and Shift are pressed
+	/// </summary>
+	/// <param name="vert"></param>
 	void SpeedUp(float vert)
 	{
         // Force by SpeedUp is * 5 
