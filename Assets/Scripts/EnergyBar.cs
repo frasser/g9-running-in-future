@@ -12,11 +12,14 @@ public class EnergyBar : MonoBehaviour
     private bool isEnergyBarOn;
     public bool isEnergyIncreasing = false;
 
+    public Hoverboard hoverboard;
+
     void Start()
     {
         currentEnergy = maxEnergy;
         isEnergyBarOn = true;
         StartCoroutine(UpdateEnergyBar());
+        hoverboard = FindObjectOfType<Hoverboard>();
     }
 
     IEnumerator UpdateEnergyBar()
@@ -33,7 +36,8 @@ public class EnergyBar : MonoBehaviour
                 currentEnergy -= barChangeSpeed;
                 if (currentEnergy <= 0)
                 {
-
+                    hoverboard.isTunnOff = true;
+                    currentEnergy = 0;
                 }
             }
             float fill = currentEnergy / maxEnergy;

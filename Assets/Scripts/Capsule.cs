@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Capsule : MonoBehaviour
 {
-
-
     public EnergyBar energyBar;
     public GameObject energy;
 
