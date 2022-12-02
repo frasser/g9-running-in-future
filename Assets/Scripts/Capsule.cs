@@ -7,20 +7,14 @@ public class Capsule : MonoBehaviour
     public EnergyBar energyBar;
     public GameObject energy;
 
+    [SerializeField] private AudioSource collectingSFX;
+
     public int countEnergy;
-    // Start is called before the first frame update
+
     void Start()
     {
-
         energyBar = FindObjectOfType<EnergyBar>();
         countEnergy = 0;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -28,6 +22,7 @@ public class Capsule : MonoBehaviour
         if (other.name == "Player")
         {
             countEnergy += 1;
+            collectingSFX.Play();
             //energy.SetActive(false);
 
 
