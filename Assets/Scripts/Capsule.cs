@@ -27,15 +27,17 @@ public class Capsule : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Hoverboard")
+        if (other.name == "Player")
         {
             countEnergy += 1;
-            energy.SetActive(false);
+            //energy.SetActive(false);
 
 
-            Debug.Log("count : " + countEnergy.ToString("f0"));
+            Debug.Log("Entro ->  " + countEnergy.ToString("f0"));
 
             energyBar.isEnergyIncreasing = true;
+
+            Destroy(gameObject);
         }
     }
 }
