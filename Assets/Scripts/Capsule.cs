@@ -5,9 +5,9 @@ using UnityEngine;
 public class Capsule : MonoBehaviour
 {
 
-    [Header("Moving")]
-    [SerializeField] float moveCapVal = 1;
-    public GameObject capsule;
+
+
+    public GameObject energy;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +17,16 @@ public class Capsule : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // capsule.Translate(Vector3)
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Hoverboard")
+        {
+            energy.SetActive(false);
+        }
     }
 }
+
