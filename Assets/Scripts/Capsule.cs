@@ -6,12 +6,16 @@ public class Capsule : MonoBehaviour
 {
 
 
-
+    public EnergyBar energyBar;
     public GameObject energy;
+
+    public int countEnergy;
     // Start is called before the first frame update
     void Start()
     {
 
+        energyBar = FindObjectOfType<EnergyBar>();
+        countEnergy = 0;
     }
 
     // Update is called once per frame
@@ -25,7 +29,13 @@ public class Capsule : MonoBehaviour
     {
         if (other.name == "Hoverboard")
         {
+            countEnergy += 1;
             energy.SetActive(false);
+
+
+            Debug.Log("count : " + countEnergy.ToString("f0"));
+
+            energyBar.isEnergyIncreasing = true;
         }
     }
 }

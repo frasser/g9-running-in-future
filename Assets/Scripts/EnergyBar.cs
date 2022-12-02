@@ -25,14 +25,15 @@ public class EnergyBar : MonoBehaviour
         {
             if (isEnergyIncreasing)
             {
-                currentEnergy += 1f;
+                currentEnergy += 15f;
+                isEnergyIncreasing = false;
             }
             if (!isEnergyIncreasing)
             {
                 currentEnergy -= barChangeSpeed;
                 if (currentEnergy <= 0)
-                { 
-                
+                {
+
                 }
             }
             float fill = currentEnergy / maxEnergy;
