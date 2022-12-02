@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18144,7 +18144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -189.76996, y: 131.7}
+  m_AnchoredPosition: {x: -189.76993, y: 131.7}
   m_SizeDelta: {x: -379.54, y: -263.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108749998
@@ -30756,6 +30756,76 @@ Transform:
   m_Father: {fileID: 9196187525447128159}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7511551153152105373
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3249133780300002198, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249133780300002198, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_UpdateMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249133780300002198, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.1016
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.937372
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.769718
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9740452
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.22635359
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -26.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118389, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511551151812118394, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+      propertyPath: m_Name
+      value: EnergyCapsule
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3249133780300002198, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 84d20e4e14542624f8c13d39b8ac9fef, type: 3}
 --- !u!23 &7520728206232043014
 MeshRenderer:
   m_ObjectHideFlags: 0
