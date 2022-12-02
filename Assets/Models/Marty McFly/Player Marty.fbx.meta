@@ -1,0 +1,885 @@
+fileFormatVersion: 2
+guid: 6e8e348138c9ad847b7a84da7cb9a122
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marty_body1
+    second: {fileID: 2100000, guid: 7bef8efbe1a39b3408a706fd97f1b914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marty_eyes1
+    second: {fileID: 2100000, guid: fb9fe343f2946b743bc68621c2eda971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marty_face1
+    second: {fileID: 2100000, guid: f13af57df0876fd4b8650e4ae2c15269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marty_hair1
+    second: {fileID: 2100000, guid: e83a8bdce8e497648b3d35996f20c271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marty_teeth1
+    second: {fileID: 2100000, guid: 6de6a6e149348304f963b3512fe8a672, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Marty:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Marty:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Player Marty(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Mesh
+      parentName: Player Marty(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Hips
+      parentName: Player Marty(Clone)
+      position: {x: -0.000000008256676, y: 0.008823819, z: -0.00004821035}
+      rotation: {x: 0.000000015598463, y: -0.00000027651987, z: 0.000009624221, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Spine
+      parentName: Marty:Hips
+      position: {x: -0, y: 0.0008907294, z: -0.000063641455}
+      rotation: {x: -0.03565617, y: 0.0000006195132, z: -0.000009608242, w: 0.99936414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Spine1
+      parentName: Marty:Spine
+      position: {x: -0, y: 0.001041834, z: -2.1861033e-12}
+      rotation: {x: 6.173168e-26, y: -9.11373e-14, z: 6.773482e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Spine2
+      parentName: Marty:Spine1
+      position: {x: -0, y: 0.0011906668, z: -8.540235e-13}
+      rotation: {x: 0, y: -0, z: -5.679798e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightShoulder
+      parentName: Marty:Spine2
+      position: {x: 0.00067445054, y: 0.0011093778, z: -0.000009539547}
+      rotation: {x: -0.5656514, y: -0.4220005, z: 0.5727083, w: -0.41708425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightArm
+      parentName: Marty:RightShoulder
+      position: {x: -2.5598675e-13, y: 0.001434464, z: -6.0408232e-12}
+      rotation: {x: -0.14966771, y: 0.0078036217, z: 0.004967392, w: 0.9886931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightForeArm
+      parentName: Marty:RightArm
+      position: {x: 4.591036e-13, y: 0.0021807607, z: 9.883405e-12}
+      rotation: {x: 0.000000012505304, y: -0.0013293471, z: -0.00000025037087, w: 0.9999991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHand
+      parentName: Marty:RightForeArm
+      position: {x: 8.9799793e-13, y: 0.0023668292, z: 6.587759e-12}
+      rotation: {x: 0.008952585, y: 0.013594389, z: -0.044319116, w: 0.9988848}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandMiddle1
+      parentName: Marty:RightHand
+      position: {x: -0.00011057923, y: 0.0012516885, z: -0.000023661094}
+      rotation: {x: -0.009559123, y: 0.00009873839, z: 0.045523975, w: 0.9989175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandMiddle2
+      parentName: Marty:RightHandMiddle1
+      position: {x: 0.0000012022723, y: 0.00037486406, z: -2.3266922e-12}
+      rotation: {x: 0.00000038242686, y: -0.000007957746, z: -0.0028039068, w: 0.99999607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandMiddle3
+      parentName: Marty:RightHandMiddle2
+      position: {x: -0.0000005130407, y: 0.00034027133, z: -2.8920466e-12}
+      rotation: {x: -0.000000035905693, y: -0.000009783311, z: -0.0003151015, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandMiddle4
+      parentName: Marty:RightHandMiddle3
+      position: {x: -0.00000068923026, y: 0.0002799226, z: -1.0004464e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandThumb1
+      parentName: Marty:RightHand
+      position: {x: -0.0002931643, y: 0.00047823405, z: 0.00016370909}
+      rotation: {x: 0.08668743, y: -0.019172704, z: 0.3323104, w: 0.9389822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandThumb2
+      parentName: Marty:RightHandThumb1
+      position: {x: -0.00005217203, y: 0.0004645517, z: -2.3699646e-11}
+      rotation: {x: 0.0000052618116, y: -0.00055797474, z: 0.102016784, w: 0.9947825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandThumb3
+      parentName: Marty:RightHandThumb2
+      position: {x: 0.00003229924, y: 0.00034343317, z: -2.1060998e-12}
+      rotation: {x: -0.00054287555, y: -0.006240201, z: -0.0062769833, w: 0.9999607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandThumb4
+      parentName: Marty:RightHandThumb3
+      position: {x: 0.00001987281, y: 0.00024831074, z: 6.3427264e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandIndex1
+      parentName: Marty:RightHand
+      position: {x: -0.00040084365, y: 0.0012175597, z: 0.000003291421}
+      rotation: {x: -0.009613903, y: 0.00138533, z: 0.04578608, w: 0.99890405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandIndex2
+      parentName: Marty:RightHandIndex1
+      position: {x: 0.00000083874016, y: 0.00031141535, z: -3.5775027e-12}
+      rotation: {x: -0.00000044888043, y: -0.0000013636964, z: -0.0032364572, w: 0.99999475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandIndex3
+      parentName: Marty:RightHandIndex2
+      position: {x: -0.0000008142984, y: 0.00030688875, z: 5.2056046e-12}
+      rotation: {x: -0.000000028810707, y: 0.000015689291, z: 0.0016286843, w: 0.9999987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandIndex4
+      parentName: Marty:RightHandIndex3
+      position: {x: -0.000000024435126, y: 0.00024593886, z: 8.859026e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandRing1
+      parentName: Marty:RightHand
+      position: {x: 0.00014830995, y: 0.0012718078, z: -0.000026306752}
+      rotation: {x: -0.0094329305, y: -0.0027553034, z: 0.044219136, w: 0.99897355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandRing2
+      parentName: Marty:RightHandRing1
+      position: {x: 0.00000008621224, y: 0.00033484626, z: -4.3335934e-12}
+      rotation: {x: -0.000000041593474, y: -0.000098075725, z: -0.0015923548, w: 0.99999875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandRing3
+      parentName: Marty:RightHandRing2
+      position: {x: -0.000000856437, y: 0.00031369424, z: 7.2278225e-12}
+      rotation: {x: 0.000000075864705, y: -0.0000574962, z: 0.0036498762, w: 0.9999933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandRing4
+      parentName: Marty:RightHandRing3
+      position: {x: 0.0000007702241, y: 0.00024302541, z: -5.610046e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandPinky1
+      parentName: Marty:RightHand
+      position: {x: 0.0003631129, y: 0.0011476169, z: -0.000021600375}
+      rotation: {x: -0.008848297, y: -0.015946724, z: 0.044340257, w: 0.99885005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandPinky2
+      parentName: Marty:RightHandPinky1
+      position: {x: 0.00000024708714, y: 0.00032553868, z: -2.7658054e-12}
+      rotation: {x: 0.00000028563085, y: 0.00000007628611, z: 0.000000029802326, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandPinky3
+      parentName: Marty:RightHandPinky2
+      position: {x: -0.000000118821994, y: 0.0002722758, z: -2.6560798e-12}
+      rotation: {x: -0.0000003273981, y: -0.00000013382655, z: 0.000000029802358, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightHandPinky4
+      parentName: Marty:RightHandPinky3
+      position: {x: -0.0000001282598, y: 0.00023160124, z: 1.1970935e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftShoulder
+      parentName: Marty:Spine2
+      position: {x: -0.00067445054, y: 0.0011103592, z: -0.000023274137}
+      rotation: {x: 0.55939996, y: -0.42642117, z: 0.5782409, w: 0.41336933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftArm
+      parentName: Marty:LeftShoulder
+      position: {x: 5.7708726e-13, y: 0.001434464, z: -6.016838e-12}
+      rotation: {x: -0.14899242, y: -0.007240366, z: -0.015291067, w: 0.9886936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftForeArm
+      parentName: Marty:LeftArm
+      position: {x: -1.9284275e-12, y: 0.0021829559, z: 2.8472357e-12}
+      rotation: {x: 0.0000003228275, y: 0.0012738816, z: -0.00000004578905, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHand
+      parentName: Marty:LeftForeArm
+      position: {x: 3.7150183e-12, y: 0.0023651447, z: -9.696148e-12}
+      rotation: {x: 0.009733717, y: -0.02266439, z: 0.05119701, w: 0.99838394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandThumb1
+      parentName: Marty:LeftHand
+      position: {x: 0.00029009517, y: 0.00050545955, z: 0.00018109141}
+      rotation: {x: 0.084561355, y: 0.027149368, z: -0.34637547, w: 0.9338824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandThumb2
+      parentName: Marty:LeftHandThumb1
+      position: {x: 0.000047379093, y: 0.00048591814, z: -5.7131986e-12}
+      rotation: {x: -0.00000015425717, y: -0.00006960744, z: -0.09914382, w: 0.99507314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandThumb3
+      parentName: Marty:LeftHandThumb2
+      position: {x: -0.000036392023, y: 0.0003514005, z: -5.767533e-12}
+      rotation: {x: -0.00005633471, y: 0.0007725918, z: 0.029113503, w: 0.99957585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandThumb4
+      parentName: Marty:LeftHandThumb3
+      position: {x: -0.000010987013, y: 0.0002500017, z: 8.494534e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandRing1
+      parentName: Marty:LeftHand
+      position: {x: -0.00014063554, y: 0.0012939994, z: -0.000031361415}
+      rotation: {x: -0.010769856, y: 0.002400174, z: -0.050989345, w: 0.9986383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandRing2
+      parentName: Marty:LeftHandRing1
+      position: {x: -0.00000027902277, y: 0.00031893412, z: -4.4956326e-12}
+      rotation: {x: 0.00000016061814, y: 0.000000029063406, z: -0.00000008940695, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandRing3
+      parentName: Marty:LeftHandRing2
+      position: {x: -0.000000039611823, y: 0.00031714054, z: 7.3105964e-14}
+      rotation: {x: -0.0000002859689, y: -0.00000008865011, z: 0.00000014901164, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandRing4
+      parentName: Marty:LeftHandRing3
+      position: {x: 0.00000031863644, y: 0.00025695137, z: -1.4479284e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandMiddle1
+      parentName: Marty:LeftHand
+      position: {x: 0.0001314556, y: 0.001279581, z: -0.000028062608}
+      rotation: {x: -0.010836287, y: 0.0010986077, z: -0.050975334, w: 0.99864054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandMiddle2
+      parentName: Marty:LeftHandMiddle1
+      position: {x: -0.0000003629857, y: 0.00035896595, z: -1.2130763e-12}
+      rotation: {x: -0.00000047833896, y: -0.00000001489762, z: -0.000000059604638, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandMiddle3
+      parentName: Marty:LeftHandMiddle2
+      position: {x: -0.000000022168935, y: 0.00035760537, z: 5.6466875e-12}
+      rotation: {x: 0.00000023189638, y: -0.000000015549919, z: -2.3870795e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandMiddle4
+      parentName: Marty:LeftHandMiddle3
+      position: {x: 0.00000038515478, y: 0.00029485152, z: 3.2464675e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandPinky1
+      parentName: Marty:LeftHand
+      position: {x: -0.0003908691, y: 0.0012186996, z: 0.0000010757133}
+      rotation: {x: -0.010486022, y: 0.007964575, z: -0.05104825, w: 0.9986094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandPinky2
+      parentName: Marty:LeftHandPinky1
+      position: {x: -0.0000004314865, y: 0.00031657875, z: -1.0113354e-12}
+      rotation: {x: -0.00000022377755, y: -0.000000045737078, z: -0.000000119209275, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandPinky3
+      parentName: Marty:LeftHandPinky2
+      position: {x: -0.00000008602667, y: 0.0002580356, z: -2.5182078e-14}
+      rotation: {x: -0.0000001891195, y: 0.000057189234, z: 0.0024510548, w: 0.999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandPinky4
+      parentName: Marty:LeftHandPinky3
+      position: {x: 0.00000051750726, y: 0.00020426873, z: -1.4680967e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandIndex1
+      parentName: Marty:LeftHand
+      position: {x: 0.0004000491, y: 0.0012722667, z: 0.000015502326}
+      rotation: {x: -0.010913307, y: -0.00043775895, z: -0.052528244, w: 0.9985597}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandIndex2
+      parentName: Marty:LeftHandIndex1
+      position: {x: -0.00000067080987, y: 0.0003181534, z: 3.3757884e-13}
+      rotation: {x: -0.000000114455595, y: -0.00008957138, z: 0.0015724171, w: 0.99999875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandIndex3
+      parentName: Marty:LeftHandIndex2
+      position: {x: 0.00000010065758, y: 0.00029733454, z: -1.0150125e-12}
+      rotation: {x: 0.00000037638216, y: 0.000098422, z: 0.0021644284, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftHandIndex4
+      parentName: Marty:LeftHandIndex3
+      position: {x: 0.0000005701496, y: 0.0002311791, z: 6.699361e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Neck
+      parentName: Marty:Spine2
+      position: {x: -0, y: 0.0013395001, z: 6.174365e-11}
+      rotation: {x: 0.03565619, y: -9.3737375e-21, z: -5.460094e-20, w: 0.99936414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:Head
+      parentName: Marty:Neck
+      position: {x: -0, y: 0.0008618295, z: 0.0002052115}
+      rotation: {x: -0.000000007542702, y: -6.7762636e-21, z: -5.742951e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:HeadTop_End
+      parentName: Marty:Head
+      position: {x: -0, y: 0.0024171353, z: 0.00057554746}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightUpLeg
+      parentName: Marty:Hips
+      position: {x: 0.0006166195, y: -0.00049582, z: 0.00004902566}
+      rotation: {x: 0.00016293098, y: -0.00454593, z: 0.99998766, w: 0.0019995954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightLeg
+      parentName: Marty:RightUpLeg
+      position: {x: 1.5332616e-12, y: 0.0040040193, z: 4.9464003e-13}
+      rotation: {x: -0.022670751, y: -0.000128292, z: 0.004239706, w: 0.999734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightFoot
+      parentName: Marty:RightLeg
+      position: {x: -8.2691215e-12, y: 0.0035575372, z: 1.5005363e-12}
+      rotation: {x: 0.56374586, y: 0.04944939, z: 0.002678223, w: 0.82446235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightToeBase
+      parentName: Marty:RightFoot
+      position: {x: -4.3096754e-12, y: 0.0015574922, z: -7.811925e-12}
+      rotation: {x: 0.22708039, y: -0.07434511, z: 0.017388688, w: 0.9708785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:RightToe_End
+      parentName: Marty:RightToeBase
+      position: {x: 4.897427e-13, y: 0.00069035176, z: 3.267393e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftUpLeg
+      parentName: Marty:Hips
+      position: {x: -0.0006166195, y: -0.00049582, z: 0.000051454823}
+      rotation: {x: -0.00012508268, y: -0.004782835, z: 0.9999866, w: -0.0019800141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftLeg
+      parentName: Marty:LeftUpLeg
+      position: {x: 4.7696764e-12, y: 0.0040039946, z: -8.615291e-13}
+      rotation: {x: -0.022446888, y: 0.00012530202, z: -0.0042377436, w: 0.99973905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftFoot
+      parentName: Marty:LeftLeg
+      position: {x: 9.794249e-14, y: 0.0035578678, z: -2.5217556e-12}
+      rotation: {x: 0.56057405, y: -0.049968496, z: -0.0023593775, w: 0.826592}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftToeBase
+      parentName: Marty:LeftFoot
+      position: {x: -1.7589144e-12, y: 0.0015316589, z: -4.223089e-11}
+      rotation: {x: 0.23098512, y: 0.07455783, z: -0.017755583, w: 0.9699339}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Marty:LeftToe_End
+      parentName: Marty:LeftToeBase
+      position: {x: 7.1696506e-13, y: 0.0006832845, z: -6.848017e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
