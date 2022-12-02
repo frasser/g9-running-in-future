@@ -23,10 +23,6 @@ public class Capsule : MonoBehaviour
         {
             countEnergy += 1;
             collectingSFX.Play();
-            //energy.SetActive(false);
-
-
-            Debug.Log("Entro ->  " + countEnergy.ToString("f0"));
 
             energyBar.isEnergyIncreasing = true;
 

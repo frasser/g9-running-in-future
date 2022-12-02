@@ -7,15 +7,8 @@ public class DialogueSystem : MonoBehaviour
 {
     public GameObject dialogueBox;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            dialogueBox.SetActive(true);
-        }
-        else
-        {
-            dialogueBox.SetActive(true);
-        }
+            dialogueBox.SetActive(false);
     }
 }
