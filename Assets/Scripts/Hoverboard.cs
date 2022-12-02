@@ -20,7 +20,7 @@ public class Hoverboard : MonoBehaviour
 	[SerializeField] Transform[] raycastPos;
 	[SerializeField] Vector3 centreOfMass;
 
-	bool isTunnOff = true;
+	public bool isTunnOff = true;
 	float currForce;
 	float currTurn;
 
@@ -42,7 +42,9 @@ public class Hoverboard : MonoBehaviour
 		bool isSpacePressed = Input.GetKey(KeyCode.Space);
 		if (isTunnOff != isSpacePressed)
 		{
+			
 			isTunnOff = isSpacePressed;
+
 			if (isTunnOff)
 				EnableRagdoll();
 			else
