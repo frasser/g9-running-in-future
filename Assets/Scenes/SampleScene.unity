@@ -2003,6 +2003,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5868489741709520285, guid: 8b09e234fcfe92d49a4547768de165b9, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5868489741709520287, guid: 8b09e234fcfe92d49a4547768de165b9, type: 3}
       propertyPath: m_Name
       value: Dialogue Canvas
@@ -26055,7 +26059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2004537529134876045, guid: fba5b8866da45c84793f2b17270d1879, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2004537529134876081, guid: fba5b8866da45c84793f2b17270d1879, type: 3}
       propertyPath: m_Pivot.x
@@ -32176,7 +32180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551153437611739}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217272671932564
 MonoBehaviour:
@@ -32192,7 +32196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551153529529142}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217272711949701
 MonoBehaviour:
@@ -32208,7 +32212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551153623997991}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217273099405284
 MonoBehaviour:
@@ -32224,7 +32228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551152832869446}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217273412594537
 MonoBehaviour:
@@ -32240,7 +32244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551153191655627}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217274068822517
 MonoBehaviour:
@@ -32256,7 +32260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551152804026967}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217274412797378
 MonoBehaviour:
@@ -32272,7 +32276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551152056974944}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!114 &110217274526060741
 MonoBehaviour:
@@ -32288,7 +32292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   energyBar: {fileID: 0}
   energy: {fileID: 7511551152212173671}
-  collectingSFX: {fileID: 0}
+  collectingSFX: {fileID: 7511551152056974961}
   countEnergy: 0
 --- !u!4 &422239966488200896 stripped
 Transform:
